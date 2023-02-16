@@ -13,3 +13,18 @@ C:\Users\dmitr\source\repos\PhoneApp\obj\Debug\PhoneApp.csproj.CopyComplete
 C:\Users\dmitr\source\repos\PhoneApp\bin\Debug\EmployeesLoader.Plugin.dll
 C:\Users\dmitr\source\repos\PhoneApp\bin\Debug\EmployeesViewer.Plugin.dll
 C:\Users\dmitr\source\repos\PhoneApp\bin\Debug\EmployeesViewer.Plugin.pdb
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\bin\Debug\EmployeesLoader.Plugin.dll
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\bin\Debug\EmployeesViewer.Plugin.dll
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\bin\Debug\EmployeesViewer.Plugin.pdb
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\bin\Debug\PhoneApp.exe.config
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\bin\Debug\PhoneApp.exe
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\bin\Debug\PhoneApp.pdb
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\bin\Debug\Newtonsoft.Json.dll
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\bin\Debug\NLog.dll
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\bin\Debug\Newtonsoft.Json.xml
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\bin\Debug\NLog.xml
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\obj\Debug\PhoneApp.csproj.AssemblyReference.cache
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\obj\Debug\PhoneApp.csproj.CoreCompileInputs.cache
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\obj\Debug\PhoneApp.csproj.CopyComplete
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\obj\Debug\PhoneApp.exe
+E:\Поиск Работы\Центр внедрения документоооборота\git\PhonePluginsApplication\PhoneApp\obj\Debug\PhoneApp.pdb

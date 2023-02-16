@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using PhoneApp.Plugin;
 using PhoneApp.Domain;
 using PhoneApp.Domain.DTO;
+using Newtonsoft.Json;
+using System.IO;
+using Newtonsoft.Json.Linq;
 
 namespace PhoneApp
 {

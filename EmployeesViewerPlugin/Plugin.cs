@@ -7,6 +7,8 @@ using PhoneApp.Domain;
 using PhoneApp.Domain.Attributes;
 using PhoneApp.Domain.DTO;
 using PhoneApp.Domain.Interfaces;
+using Newtonsoft.Json;
+using System.Xml;
 
 namespace EmployeesLoaderPlugin
 {
@@ -25,11 +27,15 @@ namespace EmployeesLoaderPlugin
 
       string command = "";
 
-      while(!command.ToLower().Contains("quit"))
+      while(true)
       {
         Console.Write("> ");
         command = Console.ReadLine();
-
+        if (command.ToLower() == "quit" || command.ToLower() == "q")
+        {
+            Console.WriteLine();
+            break;
+        }
         switch(command)
         {
           case "list":
@@ -46,6 +52,13 @@ namespace EmployeesLoaderPlugin
             Console.Write("Phone: ");
             string phone = Console.ReadLine();
             Console.WriteLine($"{name} added to employees");
+            
+            EmployeesDTO employeeDTO = new EmployeesDTO();
+            employeeDTO.Name = name;
+            employeeDTO.AddPhone(phone);
+            employeeDTO.ToJson();
+            employeesList.Add(employeeDTO);
+            
             break;
           case "del":
             Console.Write("Index of employee to delete: ");
@@ -54,15 +67,22 @@ namespace EmployeesLoaderPlugin
             {
               logger.Error("Not an index or not an int value!");
             } else {
-              if(indexToDelete > 0 && indexToDelete < employeesList.Count())
+              if(indexToDelete >= 0 && indexToDelete < employeesList.Count())
               {
                 employeesList.RemoveAt(indexToDelete);
               }
+              else
+              {
+                Console.WriteLine("Index of employee is not exists!");
+              }
             }
+            break;
+          default:
+            Console.WriteLine("Available commands: list, add, del");
             break;
         }
 
-        Console.WriteLine("");
+        Console.WriteLine();
       }
 
       return employeesList.Cast<DataTransferObject>();
