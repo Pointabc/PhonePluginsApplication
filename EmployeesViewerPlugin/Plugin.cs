@@ -61,20 +61,27 @@ namespace EmployeesLoaderPlugin
             
             break;
           case "del":
-            Console.Write("Index of employee to delete: ");
-            int indexToDelete;
-            if(!Int32.TryParse(Console.ReadLine(), out indexToDelete))
+            if (employeesList.Count != 0)
             {
-              logger.Error("Not an index or not an int value!");
-            } else {
-              if(indexToDelete >= 0 && indexToDelete < employeesList.Count())
-              {
-                employeesList.RemoveAt(indexToDelete);
-              }
-              else
-              {
-                Console.WriteLine("Index of employee is not exists!");
-              }
+                Console.Write("Index of employee to delete: ");
+                int indexToDelete;
+                if(!Int32.TryParse(Console.ReadLine(), out indexToDelete))
+                {
+                  logger.Error("Not an index or not an int value!");
+                } else {
+                  if(indexToDelete >= 0 && indexToDelete < employeesList.Count())
+                  {
+                    employeesList.RemoveAt(indexToDelete);
+                  }
+                  else
+                  {
+                    Console.WriteLine("Index of employee is not exists!");
+                  }
+                }
+            }
+            else
+            {
+                Console.WriteLine("No records.");
             }
             break;
           default:
